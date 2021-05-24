@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L3_DBEntityFramework", "L3_DBEntityFramework\L3_DBEntityFramework.csproj", "{93C76878-6611-4D5F-8299-B7FD3B07E2D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93C76878-6611-4D5F-8299-B7FD3B07E2D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C76878-6611-4D5F-8299-B7FD3B07E2D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93C76878-6611-4D5F-8299-B7FD3B07E2D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C76878-6611-4D5F-8299-B7FD3B07E2D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {744BD28F-B4B2-42D4-B792-DE3819210CB9}
+	EndGlobalSection
+EndGlobal
