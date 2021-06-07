@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30330.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L5_Swagger", "L4_RESTfulAPI\L5_Swagger.csproj", "{D3D301B3-7911-415D-A22F-79BA2E6B6C73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L5_Swagger", "L5_Swagger\L5_Swagger.csproj", "{D3D301B3-7911-415D-A22F-79BA2E6B6C73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

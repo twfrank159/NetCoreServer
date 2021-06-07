@@ -1,0 +1,115 @@
+2021-06-02 13:52:41.889 +08:00 [INF] This informational message will be written to MySQL database
+2021-06-02 13:52:41.925 +08:00 [INF] Starting web host
+2021-06-02 13:52:43.922 +08:00 [INF] Now listening on: https://localhost:5001
+2021-06-02 13:52:43.926 +08:00 [INF] Now listening on: http://localhost:5000
+2021-06-02 13:52:43.927 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-02 13:52:43.929 +08:00 [INF] Hosting environment: NoDevelopment
+2021-06-02 13:52:43.931 +08:00 [INF] Content root path: D:\C#Code\NetCoreServer\L6_Exception_Log\L6_Exception_Log
+2021-06-02 13:52:46.546 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/EX  
+2021-06-02 13:52:46.620 +08:00 [INF] Executing endpoint 'L6_Exception_Log.Controllers.ExController.Index (L6_Exception_Log)'
+2021-06-02 13:52:46.670 +08:00 [INF] Route matched with {action = "Index", controller = "Ex"}. Executing controller action with signature Void Index() on controller L6_Exception_Log.Controllers.ExController (L6_Exception_Log).
+2021-06-02 13:52:46.675 +08:00 [DBG] Debug Log Example!
+2021-06-02 13:52:46.676 +08:00 [INF] Information Log Example!
+2021-06-02 13:52:46.677 +08:00 [WRN] Warning Log Example!
+2021-06-02 13:52:46.678 +08:00 [ERR] Error Log Example!
+2021-06-02 13:52:46.688 +08:00 [INF] Executed action L6_Exception_Log.Controllers.ExController.Index (L6_Exception_Log) in 10.9198ms
+2021-06-02 13:52:46.692 +08:00 [INF] Executed endpoint 'L6_Exception_Log.Controllers.ExController.Index (L6_Exception_Log)'
+2021-06-02 13:52:46.697 +08:00 [INF] Request finished in 170.3504ms 200 
+2021-06-02 13:52:46.754 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2021-06-02 13:52:46.757 +08:00 [INF] Request finished in 3.1081ms 404 
+2021-06-02 14:17:10.513 +08:00 [INF] This informational message will be written to MySQL database
+2021-06-02 14:17:10.532 +08:00 [INF] Starting web host
+2021-06-02 14:17:11.725 +08:00 [INF] Now listening on: https://localhost:5001
+2021-06-02 14:17:11.729 +08:00 [INF] Now listening on: http://localhost:5000
+2021-06-02 14:17:11.731 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-02 14:17:11.732 +08:00 [INF] Hosting environment: NoDevelopment
+2021-06-02 14:17:11.733 +08:00 [INF] Content root path: D:\C#Code\NetCoreServer\L6_Exception_Log\L6_Exception_Log
+2021-06-02 14:17:13.762 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/EX  
+2021-06-02 14:17:13.803 +08:00 [INF] Executing endpoint 'L6_Exception_Log.Controllers.ExController.Index (L6_Exception_Log)'
+2021-06-02 14:17:13.848 +08:00 [INF] Route matched with {action = "Index", controller = "Ex"}. Executing controller action with signature Void Index() on controller L6_Exception_Log.Controllers.ExController (L6_Exception_Log).
+2021-06-02 14:17:13.853 +08:00 [DBG] Debug Log Example!
+2021-06-02 14:17:13.854 +08:00 [INF] Information Log Example!
+2021-06-02 14:17:13.855 +08:00 [WRN] Warning Log Example!
+2021-06-02 14:17:13.858 +08:00 [ERR] Error Log Example!
+2021-06-02 14:17:13.866 +08:00 [INF] Executed action L6_Exception_Log.Controllers.ExController.Index (L6_Exception_Log) in 11.2415ms
+2021-06-02 14:17:13.870 +08:00 [INF] Executed endpoint 'L6_Exception_Log.Controllers.ExController.Index (L6_Exception_Log)'
+2021-06-02 14:17:13.875 +08:00 [INF] Request finished in 114.9081ms 200 
+2021-06-02 14:17:13.919 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2021-06-02 14:17:13.921 +08:00 [INF] Request finished in 2.3925ms 404 
+2021-06-02 14:25:57.442 +08:00 [INF] This informational message will be written to MySQL database
+2021-06-02 14:25:57.462 +08:00 [INF] Starting web host
+2021-06-02 14:25:59.519 +08:00 [INF] Now listening on: https://localhost:5001
+2021-06-02 14:25:59.524 +08:00 [INF] Now listening on: http://localhost:5000
+2021-06-02 14:25:59.525 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-02 14:25:59.526 +08:00 [INF] Hosting environment: NoDevelopment
+2021-06-02 14:25:59.527 +08:00 [INF] Content root path: D:\C#Code\NetCoreServer\L6_Exception_Log\L6_Exception_Log
+2021-06-02 14:26:02.530 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/EX  
+2021-06-02 14:26:02.572 +08:00 [INF] Executing endpoint 'L6_Exception_Log.Controllers.ExController.Index (L6_Exception_Log)'
+2021-06-02 14:26:02.608 +08:00 [INF] Route matched with {action = "Index", controller = "Ex"}. Executing controller action with signature Void Index() on controller L6_Exception_Log.Controllers.ExController (L6_Exception_Log).
+2021-06-02 14:26:02.614 +08:00 [DBG] Debug Log Example!
+2021-06-02 14:26:02.615 +08:00 [INF] Information Log Example!
+2021-06-02 14:26:02.616 +08:00 [WRN] Warning Log Example!
+2021-06-02 14:26:02.618 +08:00 [ERR] Error Log Example!
+2021-06-02 14:26:02.623 +08:00 [INF] Executed action L6_Exception_Log.Controllers.ExController.Index (L6_Exception_Log) in 8.4637ms
+2021-06-02 14:26:02.626 +08:00 [INF] Executed endpoint 'L6_Exception_Log.Controllers.ExController.Index (L6_Exception_Log)'
+2021-06-02 14:26:02.631 +08:00 [INF] Request finished in 103.9739ms 200 
+2021-06-02 14:26:02.697 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2021-06-02 14:26:02.700 +08:00 [INF] Request finished in 2.334ms 404 
+2021-06-02 14:26:34.786 +08:00 [INF] This informational message will be written to MySQL database
+2021-06-02 14:26:34.806 +08:00 [INF] Starting web host
+2021-06-02 14:26:36.051 +08:00 [INF] Now listening on: https://localhost:5001
+2021-06-02 14:26:36.056 +08:00 [INF] Now listening on: http://localhost:5000
+2021-06-02 14:26:36.057 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-02 14:26:36.058 +08:00 [INF] Hosting environment: NoDevelopment
+2021-06-02 14:26:36.060 +08:00 [INF] Content root path: D:\C#Code\NetCoreServer\L6_Exception_Log\L6_Exception_Log
+2021-06-02 14:26:37.748 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/EX  
+2021-06-02 14:26:37.784 +08:00 [INF] Executing endpoint 'L6_Exception_Log.Controllers.ExController.Index (L6_Exception_Log)'
+2021-06-02 14:26:37.826 +08:00 [INF] Route matched with {action = "Index", controller = "Ex"}. Executing controller action with signature Void Index() on controller L6_Exception_Log.Controllers.ExController (L6_Exception_Log).
+2021-06-02 14:26:37.834 +08:00 [DBG] Debug Log Example!
+2021-06-02 14:26:37.835 +08:00 [INF] Information Log Example!
+2021-06-02 14:26:37.836 +08:00 [WRN] Warning Log Example!
+2021-06-02 14:26:37.838 +08:00 [ERR] Error Log Example!
+2021-06-02 14:26:37.845 +08:00 [INF] Executed action L6_Exception_Log.Controllers.ExController.Index (L6_Exception_Log) in 10.6522ms
+2021-06-02 14:26:37.849 +08:00 [INF] Executed endpoint 'L6_Exception_Log.Controllers.ExController.Index (L6_Exception_Log)'
+2021-06-02 14:26:37.853 +08:00 [INF] Request finished in 107.5579ms 200 
+2021-06-02 14:26:37.905 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2021-06-02 14:26:37.907 +08:00 [INF] Request finished in 2.4618ms 404 
+2021-06-02 14:28:58.273 +08:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Exception  
+2021-06-02 14:28:58.276 +08:00 [INF] Executing endpoint 'L6_Exception_Log.Controllers.ExController.ExceptionPage (L6_Exception_Log)'
+2021-06-02 14:28:58.282 +08:00 [INF] Route matched with {action = "ExceptionPage", controller = "Ex"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ExceptionPage() on controller L6_Exception_Log.Controllers.ExController (L6_Exception_Log).
+2021-06-02 14:29:04.742 +08:00 [ERR] 
+
+!!!!!!!!!!!!!!!Error TEST!!!!!!!!!!!!!!!!!!!!!
+
+
+2021-06-02 14:29:04.749 +08:00 [INF] Executed action L6_Exception_Log.Controllers.ExController.ExceptionPage (L6_Exception_Log) in 6463.7911ms
+2021-06-02 14:29:04.752 +08:00 [INF] Executed endpoint 'L6_Exception_Log.Controllers.ExController.ExceptionPage (L6_Exception_Log)'
+2021-06-02 14:29:04.783 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: This is unexpected Exception
+   at L6_Exception_Log.Controllers.ExController.ExceptionPage() in D:\C#Code\NetCoreServer\L6_Exception_Log\L6_Exception_Log\Controllers\ExController.cs:line 65
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-06-02 14:29:04.991 +08:00 [INF] Executing endpoint 'L6_Exception_Log.Controllers.ExController.Error (L6_Exception_Log)'
+2021-06-02 14:29:04.995 +08:00 [INF] Route matched with {action = "Error", controller = "Ex"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller L6_Exception_Log.Controllers.ExController (L6_Exception_Log).
+2021-06-02 14:29:05.004 +08:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2021-06-02 14:29:05.016 +08:00 [INF] Executed action L6_Exception_Log.Controllers.ExController.Error (L6_Exception_Log) in 17.3294ms
+2021-06-02 14:29:05.018 +08:00 [INF] Executed endpoint 'L6_Exception_Log.Controllers.ExController.Error (L6_Exception_Log)'
+2021-06-02 14:29:05.043 +08:00 [INF] Request finished in 6770.8781ms 500 application/problem+json; charset=utf-8

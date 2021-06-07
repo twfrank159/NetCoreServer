@@ -2,6 +2,8 @@
 using System.Linq;
 using L4_RESTfulAPI.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+
 namespace L4_RESTfulAPI.Controllers
 {
     [ApiController]
@@ -9,10 +11,13 @@ namespace L4_RESTfulAPI.Controllers
     public class CatsController : Controller
     {
         private readonly List<Cat> _TestData;
+        public IConfiguration _Configuration { get; }
 
-        public CatsController(List<Cat> TestData)
+        public CatsController(List<Cat> TestData, IConfiguration configuration)
         {
             _TestData = TestData;
+            _Configuration = configuration;
+
             if (_TestData.Count() == 0)
             {
                 _TestData.Add(
@@ -37,7 +42,23 @@ namespace L4_RESTfulAPI.Controllers
         [HttpGet()]
         public IActionResult Index()
         {
-            return Content("[CatGetAll]/[CatGet/Id]/[CatAdd]/[CatUpdate/Id]/[CatDelete/Id]");
+            return Content("[CatGetAll]/[CatGet/Id]/[CatAdd]/[CatUpdate/Id]/[CatDelete/Id]/[Config]");
+        }
+        [HttpGet("Config")]
+        public IActionResult Config()
+        {
+            string c = "Content : \n Test Config: \n";
+            var Test = _Configuration.GetSection("TestConfiguration").GetChildren();
+  
+            foreach ( var tt in Test)
+            {
+                c += tt.Key + "/" + tt.Value + "\n";
+            }
+
+            c += "Conn Config :\n";
+            c += _Configuration.GetSection("ConnectionStrings")["DefaultConnection"];
+
+            return Content(c);
         }
 
         [HttpGet("CatGetAll")]
