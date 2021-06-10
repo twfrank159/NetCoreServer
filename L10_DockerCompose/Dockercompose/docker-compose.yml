@@ -1,0 +1,45 @@
+version: "3.5"
+
+services:
+  server:
+    image: server_10
+    working_dir: /app
+    environment:
+      - http_proxy=http://10.160.3.88:8080 
+      - https_proxy=http://10.160.3.88:8080 
+    ports:
+      - "5487:5001"
+    depends_on:
+      - db
+    volumes:
+      - D:\C#Code\NetCoreServer\L10_DockerCompose\Dockercompose\config\appsettings.json:/app/appsettings.json
+    networks:
+      - MyNet
+  db_ui:
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - "8080:80"
+    environment:
+      #指定上面的db service
+      - PMA_HOST=db
+      - PMA_CONTROLUSER=user
+      - PMA_CONTROLPASS=pass
+      - PMA_USER=root
+      - PMA_PASSWORD=root
+    depends_on:
+      - db
+    networks:
+      - MyNet
+  db:
+    image: mysql:5.7
+    #ports:
+    #  - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=user
+    networks:
+      - MyNet
+networks:
+  MyNet:
+    driver: bridge

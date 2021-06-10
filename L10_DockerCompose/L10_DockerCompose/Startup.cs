@@ -28,7 +28,7 @@ namespace L3_DBEntityFramework
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<CatsContext>(
-                    options => options.UseMySql("server=localhost;port=3306;database=test;user=user;password=user"
+                    options => options.UseMySql(Configuration.GetSection("ConnectionString")["Default"]
                     , Microsoft.EntityFrameworkCore.ServerVersion.Parse("5.7.34-mysql")));
             services.AddControllers();
         }

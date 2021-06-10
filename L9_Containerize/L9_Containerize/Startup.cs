@@ -2,18 +2,17 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using L3_DBEntityFramework.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using L5_Swagger.Models;
 
-namespace L3_DBEntityFramework
+namespace L5_Swagger
 {
     public class Startup
     {
@@ -27,9 +26,8 @@ namespace L3_DBEntityFramework
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<CatsContext>(
-                    options => options.UseMySql("server=localhost;port=3306;database=test;user=user;password=user"
-                    , Microsoft.EntityFrameworkCore.ServerVersion.Parse("5.7.34-mysql")));
+            services.AddSingleton<List<Cat>, List<Cat>>();
+            services.AddOpenApiDocument(); // 註冊服務加入 OpenAPI 文件
             services.AddControllers();
         }
 
@@ -40,6 +38,9 @@ namespace L3_DBEntityFramework
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseOpenApi();    // 啟動 OpenAPI 文件
+            app.UseSwaggerUi3(); // 啟動 Swagger UI
 
             app.UseHttpsRedirection();
 

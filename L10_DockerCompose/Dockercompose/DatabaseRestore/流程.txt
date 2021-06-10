@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# backup db 資料到 db_backup.sql
+docker exec [CONTAINER] //usr/bin/mysqldump -u [USER] --password=[PASSWORD] --routines --triggers $1 > /home/user/$1_backup.sql
+
+Get-Content .\AutoCreate.sql | docker exec -i db1 /usr/bin/mysql -u root -proot  
+
+# In Windows
+Get-content [Sql檔案] | docker exec -i db1 /usr/bin/mysql -u[Account] -p[Password]
+
+# init 刪除原 db_backup 資料庫，重新建立一個空的 db_backup 資料庫
+echo "DROP DATABASE IF EXISTS $1_backup; CREATE DATABASE $1_backup CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;" > /home/user/$1_init.sql | cat /home/user/$1_init.sql | docker exec -i [CONTAINER] //usr/bin/mysql -u [USER] --password=[PASSWORD]
+
+# restore 匯入備份的資料到 db_backup 資料庫
+cat /home/user/$1_backup.sql | docker exec -i [CONTAINER] //usr/bin/mysql -u [USER] --password=[PASSWORD] $1_backup
